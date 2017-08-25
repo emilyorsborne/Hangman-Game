@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="UTF-8">
+	<title>Hangman</title>
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+</head>
+
+
+<body>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+<div class="container">
+    <div class="directions">
+            <br>
+            <p class="title">Hangman</p>
+            <p class="header">Press any key to get started!</p>
+            </div>
+			<div class="subSection">
+            <ul>
+                <li class="winsBox">
+                    Total Wins:
+                    <h3><span id="wins"></span></h3>
+                </li>
+
+                <li class="livesLeftBox">
+                    # of Lives Remaining:
+                    <h3><span id="lives-left"></span></h3>
+                </li>
+                <li class="currentWordBox">
+                    Current Word:
+                    <br/>
+                    <h3><span id="word-guess"></span></h3>
+                </li>
+                <li class="letterGuessedBox">
+                    Letters Already Guessed:
+                    <h3><span id="letters-guessed"></span></h3>
+                </li>
+            </ul>
+            </div>
+        </div>
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+body {
+  background-image: url("../images/farm.jpg");
+}
+
+.container {
+  width: 40%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+  height: 
+}
+
+.subSection {
+  margin-top: 20px;
+  font-size: 20px;
+  background-color: black;
+  color: yellow;
+  padding: 10px;
+
+}
+
+.header {
+  font-size: 20px;
+  color: red;
+  font-style: italic;
+}
+
+.title {
+  font-size: 80px;
+  color: navy blue;
+  font-weight: bold;
+  font-family: cursive;
+  padding-bottom: 20px;
+}
+
+.letterGuessedBox {
+  border: 2px;
+  border-color: red;
+  border-style: dashed;
+  padding: 10px;
+  margin: 10px auto;
+  width: 50%;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#letters-guessed {
+  font-size: 15px;
+}
+
+.winsBox {
+  margin-bottom: 10px;
+}
+
+.livesLeftBox {
+  margin-bottom: 10px;
+}
+
+.currentWordBox {
+  margin-bottom: 10px;
+}
